@@ -1,0 +1,101 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T10:04:14.496Z",
+        "line": 24,
+        "name": "Login",
+        "description": "",
+        "id": "practiseautomation-testing;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4765000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User on homepage",
+            "match": {
+              "location": "com.cts.step.Stepdefinition.user_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2753000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User on login page",
+            "match": {
+              "location": "com.cts.step.Stepdefinition.user_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters username and password",
+            "match": {
+              "location": "com.cts.step.Stepdefinition.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2972000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks login button",
+            "match": {
+              "location": "com.cts.step.Stepdefinition.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 871000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User lands on homepage",
+            "match": {
+              "location": "com.cts.step.Stepdefinition.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@practiseautomation"
+          },
+          {
+            "name": "@TC_01"
+          }
+        ]
+      }
+    ],
+    "name": "Practiseautomation testing",
+    "description": "",
+    "id": "practiseautomation-testing",
+    "keyword": "Feature",
+    "uri": "file:project.feature",
+    "tags": [
+      {
+        "name": "@practiseautomation",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
